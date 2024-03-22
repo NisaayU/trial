@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+
+    <style>
+        body {
+            font-family:Cambria;
+        }
+        
+        h2 {
+            text-align: center;
+        }
+
+        .tambah{
+            background-color: blue;
+            color: white;
+            border: 0;
+            border-radius: 4px;
+            font-size: 14px;
+            width: 80px;
+            height: 30px;
+        }
+
+        input#NPM{
+            width: 600px;
+            height: 30px;
+        }
+
+        input#Nama {
+            width: 600px;
+            height: 30px;
+        }
+
+        #prodi{
+            font-family: Cambria;
+            font-size: 16px;
+            width: 607px;
+            height: 30px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h2>Pendaftaran Mahasiswa Baru</h2>
+    <form action="#" method="get">
+        <label for="NPM">NPM (Nomor Pokok Mahasiswa)</label>
+        <br>
+        <br>
+        <input type="text" name="NPM" id="NPM">
+        <br>
+        <br>
+        <br>
+
+        <label for="Nama">Nama Lengkap</label>
+        <br>
+        <br>
+        <input type="username" name="Nama" id="Nama">
+        <br>
+        <br>
+        <br>
+
+        <label for="Alamat">Alamat</label>
+        <br>
+        <br>
+        <textarea name="Alamat" id="Alamat" cols="80" rows="3"></textarea>
+        <br>
+        <br>
+        
+
+        <label for="jk">Jenis Kelamin </label>
+        <br>
+        <input type="radio" name="jk" id="jk" value="Laki-Laki">Laki-Laki
+        <br>
+        <input type="radio" name="jk" id="jk" value="Perempuan">Perempuan
+        <br>
+        <br>
+
+        <label for="prodi">Program Studi</label>
+        <br>
+        <select name="prodi" id="prodi">
+            <option value="Teknik Informatika">Teknik Informatika</option>
+            <option value="Sistem Informasi">Sistem Informasi</option>
+        </select>
+        <br>
+        <br>
+
+        <input type="submit" class="tambah" value="Tambah">
+
+    </form>
+    
+</body>
+</html>
